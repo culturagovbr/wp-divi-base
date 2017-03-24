@@ -112,11 +112,10 @@
         </ul>
 
         <div id="logo-header-tema">
-            <a href="http://intranet.cultura.gov.br/" title="Intranet MinC">
-                <div id="portal-title">Intranet</div>
-                <div id="portal-description" style="color:#F0C419">&nbsp;Minist&eacute;rio da Cultura </div>
+            <a href="<?php echo(esc_url('/')); ?>" title="<?php bloginfo( 'name' ); ?>">
+                <div id="portal-title"><?php bloginfo( 'name' ); ?></div>
+                <div id="portal-description" style="color:#F0C419"><?php bloginfo( 'description' ); ?></div>
             </a>
-
         </div>
 
         <!-- Pesquisa  -->
